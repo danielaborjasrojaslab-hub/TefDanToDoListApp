@@ -27,7 +27,7 @@
         android:divider="#E0D7CF"
         android:dividerHeight="1dp"/>
 
-    <!-- CAFEEE BOTÓN PARA REGRESAR A LA PANTALLA ANTERIOR -->
+    <!-- CAFEEEyuft BOTÓN PARA REGRESAR A LA PANTALLA ANTERIOR -->
     <Button
         android:id="@+id/buttonBack"
         android:layout_width="match_parent"
