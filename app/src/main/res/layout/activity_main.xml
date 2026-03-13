@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:hint="Escribe una nueva tarea..."
         android:padding="12dp"
-        android:textColor="D88C9A"
+        android:textColor="#D88C9A"
         android:background="#FFFFFF"
         android:layout_marginBottom="10dp"/>
 
