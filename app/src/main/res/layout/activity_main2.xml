@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#F4EFEA">
+    android:background="#F5F7FA">
 
     <!-- TÍTULO DE LA PANTALLA -->
     <TextView
@@ -15,7 +15,7 @@
         android:text="Tareas completadas"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="#5A4A4A"
+        android:textColor="#1F2937"
         android:layout_marginBottom="15dp"/>
 
     <!-- LISTA DE TAREAS COMPLETADAS -->
@@ -24,17 +24,17 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:background="#FFFFFF"
-        android:divider="#E0D7CF"
+        android:divider="#D1D5DB"
         android:dividerHeight="1dp"/>
 
-    <!-- CAFEEEyuft BOTÓN PARA REGRESAR A LA PANTALLA ANTERIOR -->
+    <!-- BOTÓN PARA REGRESAR A LA PANTALLA ANTERIOR -->
     <Button
         android:id="@+id/buttonBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Regresar"
         android:textColor="#FFFFFF"
-        android:background="#CFA5A5"
+        android:backgroundTint="#2563EB"
         android:layout_marginTop="20dp"/>
 
 </LinearLayout>

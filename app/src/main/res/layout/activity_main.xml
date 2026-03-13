@@ -7,75 +7,75 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#F4EFEA">
+    android:background="#F5F7FA">
 
-    <!-- TÍTULO DE LA APP -->
+    <!-- Título de la aplicación -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TeDa Flow - Lista de Tareas"
         android:textSize="26sp"
         android:textStyle="bold"
-        android:textColor="#5A4A4A"
+        android:textColor="#1F2937"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"/>
 
-    <!-- CAMPO PARA ESCRIBIR TAREA -->
+    <!-- Campo para escribir tarea -->
     <EditText
         android:id="@+id/editTextTask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Escribe una nueva tarea..."
         android:padding="12dp"
-        android:textColor="#3E3A39"
+        android:textColor="#111827"
         android:background="#FFFFFF"
         android:layout_marginBottom="10dp"/>
 
-    <!-- BOTÓN AGREGAR -->
+    <!-- Botón agregar -->
     <Button
         android:id="@+id/buttonAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Agregar tarea"
         android:layout_marginTop="10dp"
-        android:background="#CFA5A5"
+        android:backgroundTint="#2563EB"
         android:textColor="#FFFFFF"/>
 
-    <!-- CHECKBOX -->
+    <!-- Checkbox -->
     <CheckBox
         android:id="@+id/checkCompleted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Marcar como completada"
-        android:textColor="#5A4A4A"
+        android:textColor="#374151"
         android:layout_marginTop="10dp"/>
 
-    <!-- LISTA DE TAREAS -->
+    <!-- Lista de tareas -->
     <ListView
         android:id="@+id/listViewTasks"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="20dp"
-        android:background="#E8E2DC"/>
+        android:background="#E5E7EB"/>
 
-    <!-- BOTÓN ELIMINAR -->
+    <!-- Botón eliminar -->
     <Button
         android:id="@+id/buttonDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Eliminar tarea"
         android:layout_marginTop="10dp"
-        android:background="#B97C7C"
+        android:backgroundTint="#DC2626"
         android:textColor="#FFFFFF"/>
 
-    <!-- BOTÓN VER COMPLETADAS -->
+    <!-- Botón ver completadas -->
     <Button
         android:id="@+id/buttonCompleted"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ver tareas completadas"
         android:layout_marginTop="10dp"
-        android:background="#D4A5A5"
+        android:backgroundTint="#059669"
         android:textColor="#FFFFFF"/>
 
 </LinearLayout>
