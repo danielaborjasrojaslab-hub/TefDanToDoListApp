@@ -16,7 +16,7 @@
         android:text="TeDa Flow - Lista de Tareas"
         android:textSize="26sp"
         android:textStyle="bold"
-        android:textColor="#1F2937"
+        android:textColor="#F4A6B5"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"/>
 
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:hint="Escribe una nueva tarea..."
         android:padding="12dp"
-        android:textColor="#111827"
+        android:textColor="D88C9A"
         android:background="#FFFFFF"
         android:layout_marginBottom="10dp"/>
 
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Agregar tarea"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#2563EB"
+        android:backgroundTint="#5E4B56"
         android:textColor="#FFFFFF"/>
 
     <!-- Checkbox -->
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:text="Eliminar tarea"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#DC2626"
+        android:backgroundTint="#FF8FAB"
         android:textColor="#FFFFFF"/>
 
     <!-- Botón ver completadas -->
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:text="Ver tareas completadas"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#059669"
+        android:backgroundTint="#FF8FAB"
         android:textColor="#FFFFFF"/>
 
 </LinearLayout>
