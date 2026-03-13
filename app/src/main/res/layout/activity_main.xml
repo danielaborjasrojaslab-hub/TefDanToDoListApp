@@ -1,103 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- TEFAAAA
-Layout principal de la aplicación.
-LinearLayout organiza todos los elementos verticalmente.
--->
-
+<!-- Layout principal de la aplicación -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#EFEBE9">
+    android:background="#F4EFEA">
 
-    <!--
-    TÍTULO DE LA APLICACIÓN
-    Solo es parte visual para que la app se vea más profesional
-    -->
+    <!-- TÍTULO DE LA APP -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TeDa Flow - Lista de Tareas"
         android:textSize="26sp"
         android:textStyle="bold"
-        android:textColor="#4E342E"
+        android:textColor="#5A4A4A"
         android:layout_gravity="center"
         android:layout_marginBottom="25dp"/>
 
-    <!--
-    EditText
-    Campo donde el usuario escribe una nueva tarea
-    -->
+    <!-- CAMPO PARA ESCRIBIR TAREA -->
     <EditText
         android:id="@+id/editTextTask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Escribe una nueva tarea..."
         android:padding="12dp"
-        android:textColor="#3E2723"
+        android:textColor="#3E3A39"
+        android:background="#FFFFFF"
         android:layout_marginBottom="10dp"/>
 
-    <!--
-    Botón para agregar una tarea a la lista
-    -->
+    <!-- BOTÓN AGREGAR -->
     <Button
         android:id="@+id/buttonAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Agregar tarea"
         android:layout_marginTop="10dp"
-        android:background="#6D4C41"
+        android:background="#CFA5A5"
         android:textColor="#FFFFFF"/>
 
-    <!--
-    CheckBox
-    Permite marcar si la tarea fue completada
-    -->
+    <!-- CHECKBOX -->
     <CheckBox
         android:id="@+id/checkCompleted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Marcar como completada"
-        android:textColor="#4E342E"
+        android:textColor="#5A4A4A"
         android:layout_marginTop="10dp"/>
 
-    <!--
-    ListView
-    Aquí se mostrarán todas las tareas agregadas
-    -->
+    <!-- LISTA DE TAREAS -->
     <ListView
         android:id="@+id/listViewTasks"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="20dp"
-        android:background="#D7CCC8"/>
+        android:background="#E8E2DC"/>
 
-    <!--
-    Botón para eliminar la tarea seleccionada
-    -->
+    <!-- BOTÓN ELIMINAR -->
     <Button
         android:id="@+id/buttonDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Eliminar tarea"
         android:layout_marginTop="10dp"
-        android:background="#4E342E"
+        android:background="#B97C7C"
         android:textColor="#FFFFFF"/>
 
-    <!--
-    Botón que abrirá la Activity 2
-    donde se verán las tareas completadas
-    -->
+    <!-- BOTÓN VER COMPLETADAS -->
     <Button
         android:id="@+id/buttonCompleted"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ver tareas completadas"
         android:layout_marginTop="10dp"
-        android:background="#6D4C41"
+        android:background="#D4A5A5"
         android:textColor="#FFFFFF"/>
 
 </LinearLayout>
