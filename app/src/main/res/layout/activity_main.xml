@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#F5F7FA">
+    android:background="#F8C8DC">
 
     <!-- Título de la aplicación -->
     <TextView
