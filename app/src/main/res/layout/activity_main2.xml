@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout principal de la pantalla -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F1EB">
+
+    <!-- TÍTULO DE LA PANTALLA -->
+    <!-- TextView muestra texto al usuario -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tareas completadas"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#4E342E"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- LISTA DE TAREAS COMPLETADAS -->
+    <!-- Aquí se mostrarán las tareas que el usuario haya marcado como completadas -->
+    <ListView
+        android:id="@+id/listViewCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#FFFFFF"
+        android:divider="#D7CCC8"
+        android:dividerHeight="1dp"/>
+
+    <!-- BOTÓN PARA REGRESAR A LA PANTALLA ANTERIOR -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textColor="#FFFFFF"
+        android:background="#6D4C41"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
